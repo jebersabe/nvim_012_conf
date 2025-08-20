@@ -5,6 +5,7 @@ vim.o.tabstop = 4
 vim.g.mapleader = " "
 vim.opt.clipboard = "unnamedplus"
 vim.opt.winborder = "rounded"
+vim.o.cursorline = true
 
 vim.keymap.set("n", "<leader>o", ":w<CR> :update<CR> :source<CR>")
 vim.keymap.set("n", "<leader>w", ":w<CR>")
